@@ -84,8 +84,13 @@ body {
       .memeContainer {
         grid-column: 1 / -1;
         height: 26rem;
-        background-color: red;
         margin-top: 3rem;
+
+        .memeImage {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
 
